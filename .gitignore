@@ -43,10 +43,20 @@ temp_backgrounds*/
 *_debug_images/
 *.pdf
 *.pptx
-*.exe
+# Binary Tools
+gh.exe
+gh.zip
 
 # Local Dev Scripts & Secrets
 # gemini_analyze_themes.py
+# debug_*.py
+# test_*.py
+# *.bat
+
+# Allow specific useful scripts
+!build_cpu_exe.bat
+!run_convert.bat
+!scripts/
 # debug_*.py
 # test_*.py
 # *.bat
