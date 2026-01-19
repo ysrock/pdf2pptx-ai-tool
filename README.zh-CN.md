@@ -34,8 +34,8 @@
 
 1.  **克隆仓库**:
     ```bash
-    git clone https://github.com/your-username/pdf2pptx.git
-    cd pdf2pptx
+    git clone https://github.com/ysrock/pdf2pptx-ai-tool.git
+    cd pdf2pptx-ai-tool
     ```
 
 2.  **创建虚拟环境** (推荐):

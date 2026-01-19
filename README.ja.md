@@ -34,8 +34,8 @@
 
 1.  **リポジトリをクローン**:
     ```bash
-    git clone https://github.com/your-username/pdf2pptx.git
-    cd pdf2pptx
+    git clone https://github.com/ysrock/pdf2pptx-ai-tool.git
+    cd pdf2pptx-ai-tool
     ```
 
 2.  **仮想環境の作成** (推奨):

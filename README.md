@@ -34,8 +34,8 @@ Traditional converters only export static images. This tool uses **OCR** (Optica
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/pdf2pptx.git
-    cd pdf2pptx
+    git clone https://github.com/ysrock/pdf2pptx-ai-tool.git
+    cd pdf2pptx-ai-tool
     ```
 
 2.  **Create a virtual environment** (recommended):
