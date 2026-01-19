@@ -62,7 +62,7 @@
 python pdf2pptx_converter.py
 ```
 - **拖放** PDF 文件到窗口中。
-- 调整 **质量 (DPI)** (数值越高背景越清晰，但速度越慢)。
+- 调整 **质量 (DPI)** (默认: 100, 推荐值，兼顾质量与速度)。
 - 调整 **伪影清理 (Artifact Cleanup)** (数值越高擦除力度越大)。
 - 点击 **开始批量转换 (Start Batch Conversion)**。
 
@@ -73,7 +73,7 @@ python pdf2pptx_converter.py "input.pdf" "output.pptx" [DPI] [Dilation]
 ```
 示例:
 ```bash
-python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 250 15
+python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 100 15
 ```
 
 ## ⚙️ 工作原理

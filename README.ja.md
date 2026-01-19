@@ -62,7 +62,7 @@
 python pdf2pptx_converter.py
 ```
 - ウインドウにPDFファイルを **ドラッグ＆ドロップ** します。
-- **品質 (DPI)** を調整します (高いほど背景はきれいになりますが、処理が遅くなります)。
+- **品質 (DPI)** を調整します (デフォルト: 100、品質と速度のバランスに推奨)。
 - **アーティファクト除去 (Artifact Cleanup)** を調整します (高いほどテキスト消去が強力になります)。
 - **一括変換開始 (Start Batch Conversion)** をクリックします。
 
@@ -73,7 +73,7 @@ python pdf2pptx_converter.py "input.pdf" "output.pptx" [DPI] [Dilation]
 ```
 例:
 ```bash
-python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 250 15
+python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 100 15
 ```
 
 ## ⚙️ 仕組み

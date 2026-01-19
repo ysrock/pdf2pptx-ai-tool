@@ -62,7 +62,7 @@ Simply run the script to launch the interface:
 python pdf2pptx_converter.py
 ```
 - **Drag & Drop** PDF files into the window.
-- Adjust **Quality (DPI)** (Higher = better background, slower).
+- Adjust **Quality (DPI)** (Default: 100, recommended for best balance of quality and speed).
 - Adjust **Artifact Cleanup** (Higher = more aggressive text erasure).
 - Click **Start Batch Conversion**.
 
@@ -73,7 +73,7 @@ python pdf2pptx_converter.py "input.pdf" "output.pptx" [DPI] [Dilation]
 ```
 Example:
 ```bash
-python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 250 15
+python pdf2pptx_converter.py "lecture.pdf" "lecture_editable.pptx" 100 15
 ```
 
 ## ⚙️ How It Works
